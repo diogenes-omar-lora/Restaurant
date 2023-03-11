@@ -19,7 +19,6 @@
 }
 .container .header{
     grid-area: header;
-    background: #12203e;
 }
 .container .main{
     grid-area: main;
