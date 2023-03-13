@@ -1,0 +1,19 @@
+section{
+    padding: 20px 5%;
+}
+:root{
+    --new-valor:1;
+}
+.img{
+    width: 100%;
+    height: 350px;
+}
+.wi1,
+.wi2{
+    width: 100%;
+    height: 300px;
+}
+.imgcarrusel{
+    width: 100%;
+    height: 700px;
+}
