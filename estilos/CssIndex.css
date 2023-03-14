@@ -38,7 +38,6 @@
 }
 .container .footer{
     grid-area: footer;
-    background: #004ffa;
 }
 @media screen and (max-width:768px) {
     .container{

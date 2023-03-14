@@ -75,7 +75,7 @@
 #checkbox:checked~.line--bottom{
     transform: rotate(-45deg);
 }
-@media (max-width:868px) {
+@media (max-width:925px) {
     .header{
         height: 60px;
     }
@@ -112,6 +112,10 @@
     }
     .hamburger{
         display: block;
+    }
+    .header.active{
+        position:fixed;
+        width: 100%;
     }
     .nav-menu.active{
         left: 0px;
