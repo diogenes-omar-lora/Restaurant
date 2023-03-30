@@ -3,7 +3,7 @@
     padding: 0;
 }
 .header{
-    background: #0769e9;
+    background: #0d2033;
     height: 80px;
 }
 .nav{
@@ -13,8 +13,10 @@
 .nav-link{
     color: white;
     text-decoration: none;
+    transition: all 0.5s;
 }
 .logo{
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: bold;
     padding: 0 40px;
@@ -38,7 +40,7 @@
 }
 .nav-menu-link:hover,
 .nav-menu-link_activate{
-    background: #034574;
+    background: #12334b;
     transition: 0.5s;
 }
 /* hambu */
@@ -86,6 +88,7 @@
         line-height: 60px;
     }
     .nav-menu{
+        position: relative;
         flex-direction: column;
         align-items: center;
         margin: 0;

@@ -11,10 +11,12 @@ window.addEventListener("focus", ()=>{
 let btn = document.querySelector("#checkbox");
 let nav = document.querySelector(".nav-menu");
 let header = document.querySelector("header");
+let group = document.querySelector(".form");
 
 btn.onclick = function(){
     nav.classList.toggle("active");
     header.classList.toggle("active");
+    group.classList.toggle("active");
 }
 //carrusel-sidebar
 const carrusel = document.querySelector('.carrusel-items');

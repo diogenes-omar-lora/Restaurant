@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+body{
+
+    background: rgb(79,75,75);
+    background: linear-gradient(153deg, rgba(79,75,75,1) 29%, rgba(255,253,228,1) 84%);
+}
 .container{
     width: 100%;
     /* max-width: 1500px; */
@@ -22,19 +27,15 @@
 }
 .container .main{
     grid-area: main;
-    background: #004ffa;
 }
 .container .sidebar{
     grid-area: sidebar;
-    background: #004ffa;
 }
 .container .widget1{
     grid-area: widget1;
-    background: #004ffa;
 }
 .container .widget2{
     grid-area: widget2;
-    background: #004ffa;
 }
 .container .footer{
     grid-area: footer;
