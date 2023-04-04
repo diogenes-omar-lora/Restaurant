@@ -19,7 +19,7 @@ section {
 
 .form {
     background-color: white;
-    padding: 3.5em 4em;
+    padding: 2.5em 4em;
     border-radius: 10px;
     box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
     text-align: center;
@@ -31,7 +31,7 @@ section {
 }
 
 .form_container {
-    margin-top: 3em;
+    margin-top: 1em;
     display: grid;
     gap: 2.5em;
 }
@@ -93,4 +93,15 @@ section {
 .form_input:focus ~ .form_line,
 .form_input:not(:placeholder-shown) ~ .form_line {
     transform: scale(1);
+}
+
+/* list reservacion */
+.tabla{
+    background-color: white;
+    width: 400px;
+    height: 450px;
+    padding: 2.5em 4em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+    text-align: center;
 }
